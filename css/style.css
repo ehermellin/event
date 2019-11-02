@@ -62,6 +62,13 @@ body {
 p {
   color: #767878;
   line-height: 1.8em;
+  word-wrap: overflow-wrap;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  text-align: justify;
 }
 
 h1,
